@@ -1,0 +1,12 @@
+appId: com.poliberry.wxalerts
+productName: WX Alerts
+copyright: Copyright © 2025 Dillon Veit
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null

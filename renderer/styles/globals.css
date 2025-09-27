@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&display=swap');
+
+html, body {
+  background: unset !important;
+}
+
+.cascadia-mono {
+  font-family: "Cascadia Mono", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.drag-region {
+  -webkit-app-region: drag;
+}
+
+.nodrag-region {
+  -webkit-app-region: no-drag;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 360px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: unset !important;
+  border-radius: 360px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.3);
+  border-radius: 360px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.45);
+  }
